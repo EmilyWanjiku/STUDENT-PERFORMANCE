@@ -7,11 +7,11 @@ This project predicts whether a student will **pass or fail** based on their aca
 
 ##  Dataset
 
-- File: `student-mat.csv`
+- File: student-mat.csv
 - Source: UCI Machine Learning Repository
-- Target column: `G3` (Final Grade), which we converted into a binary variable:
-  - `Pass = 1` if G3 ≥ 10
-  - `Fail = 0` if G3 < 10
+- Target column: G3 (Final Grade), which we converted into a binary variable:
+  - Pass = 1 if G3 ≥ 10
+  - Fail = 0 if G3 < 10
 
 ---
 
