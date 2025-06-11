@@ -1,11 +1,11 @@
 # STUDENT-PERFORMANCE
-# 🎓 Student Pass/Fail Prediction using Machine Learning
+#  Student Pass/Fail Prediction using Machine Learning
 
-This project predicts whether a student will **pass or fail** based on their academic and demographic features. We use machine learning algorithms to perform binary classification on the [Student Performance Dataset](https://archive.ics.uci.edu/ml/datasets/Student+Performance).
+This project predicts whether a student will **pass or fail** based on their academic and demographic features. We use machine learning algorithms to perform binary classification on the [Student Performance Dataset]
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - File: `student-mat.csv`
 - Source: UCI Machine Learning Repository
@@ -15,7 +15,7 @@ This project predicts whether a student will **pass or fail** based on their aca
 
 ---
 
-## 🔍 Project Steps
+## Project Steps
 
 1. **Data Preprocessing**
    - Loaded the dataset using pandas
@@ -44,19 +44,19 @@ This project predicts whether a student will **pass or fail** based on their aca
 
 ---
 
-## 🧠 Model Comparison
+## Model Comparison
 
 | Metric              | Logistic Regression | Decision Tree |
 |---------------------|---------------------|----------------|
-| Accuracy            | ✅ **89.9%**         | 88.6%          |
-| F1-score (Pass)     | ✅ **0.92**          | 0.91           |
-| Precision (Pass)    | ✅ 0.94              | 0.92           |
+| Accuracy            |  89.9%       | 88.6%          |
+| F1-score (Pass)     | 0.92         | 0.91           |
+| Precision (Pass)    | 0.94              | 0.92           |
 
-✅ **Final Choice**: **Logistic Regression** is the better model for this task due to its higher accuracy and F1-score.
+**Final Choice**: **Logistic Regression** is the better model for this task due to its higher accuracy and F1-score.
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - Python
 - Jupyter Notebook
@@ -65,6 +65,4 @@ This project predicts whether a student will **pass or fail** based on their aca
 - seaborn, matplotlib
 
 ---
-
-## 📁 Folder Structure
 
