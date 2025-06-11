@@ -20,14 +20,14 @@ This project predicts whether a student will **pass or fail** based on their aca
 1. **Data Preprocessing**
    - Loaded the dataset using pandas
    - Handled missing values (none found)
-   - Encoded categorical variables using `pd.get_dummies()`
+   - Encoded categorical variables using pd.get_dummies()
 
 2. **Feature Selection**
-   - Used correlation analysis to select features highly related to `G3`
+   - Used correlation analysis to select features highly related to G3
    - Selected top correlated features for model input
 
 3. **Created Binary Target**
-   - Created a new column `'Pass'` from `G3`
+   - Created a new column Pass from G3
    - Dropped `G3` since it's no longer needed
 
 4. **Model Training**
@@ -56,13 +56,13 @@ This project predicts whether a student will **pass or fail** based on their aca
 
 ---
 
-##  Tech Stack
+##  Tools used
 
 - Python
 - Jupyter Notebook
 - pandas, numpy
-- scikit-learn
-- seaborn, matplotlib
+- 
+
 
 ---
 
